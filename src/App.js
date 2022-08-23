@@ -48,7 +48,7 @@ const App = () => {
 
 const searchCharacters = (search) => {
 	return fetch(
-		`http://api.tvmaze.com/search/shows?q=${search}`,
+		`https://api.tvmaze.com/search/shows?q=${search}`,
 		{
 			method: "GET",
 		}
